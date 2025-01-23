@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.cdnfonts.com/css/avenir');
+    @import url(style.css);
+
+    body h2, body p, .navbar .nav-link {
+        color: var(--marrom)"";
+    }
+   
+    h2{
+        font-family: "Oswald", serif;
+    }
+
+    p{
+        font-family: 'Avenir', sans-serif;
+    }
+
+
+    .navbar {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        margin-left: 7%;
+    }
+
+    .navbar-brand img {
+        height: 90px;
+    }
+
+    .navbar-brand h2 {
+        font-family: "Oswald", serif;
+        margin: 0;
+    }
+
+    .navbar-brand p {
+        font-family: 'Avenir', sans-serif;
+        margin: 0;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .navbar-nav .nav-link {
+        color: var(--marrom); 
+        font-weight: 500; 
+        transition: color 0.3s ease; 
+        font-size: 20px; 
+    }
+
+    .nav-link {
+        margin: 0 10px;
+        text-align: right; 
+    }
+
+    .nav-link:hover {
+        transform: translateY(-2px);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: var(--laranja);
+    }
+
+    .collapse.show .navbar-nav {
+        text-align: right;
+    }
+
+    #navbarNav {
+        margin-right: 7%;
+    }

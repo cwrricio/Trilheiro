@@ -1,0 +1,16 @@
+*{
+    h2{
+        color: var(--marrom) !important;
+    }
+}
+
+body{
+    background-color: var(--branco) ;
+}
+
+:root {
+    --laranja:#f2ad5a;
+    --branco:#fffcf6;
+    --verde:#d1e6bb;
+    --marrom: #444833;
+}

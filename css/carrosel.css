@@ -1,0 +1,97 @@
+.testimonial-section {
+    width: 86%;
+    background-color: var(--branco);
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0;
+}
+
+.testimonial-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.testimonial-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--marrom);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.testimonial-author {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--marrom);
+}
+
+/* Estilização dos controles do carrossel */
+.custom-control {
+    width: auto;
+    opacity: 1;
+    background: none;
+}
+
+.carousel-arrow {
+    color: var(--marrom);
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0 20px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.8;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .testimonial-text {
+        font-size: 1rem;
+    }
+
+    .testimonial-author {
+        font-size: 1rem;
+    }
+
+    .carousel-arrow {
+        font-size: 1.5rem;
+    }
+}
+
+.row_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.grid-image {
+    width: 120%;
+    height: 200px;
+    object-fit: cover;
+    max-height: 200px; 
+    transition: transform 0.3s ease;
+}
+
+.grid-image:hover {
+    transform: scale(1.05); 
+}
+
+.position-relative {
+    position: relative;
+    overflow: hidden;
+}
+
