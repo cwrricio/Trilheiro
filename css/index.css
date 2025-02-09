@@ -242,8 +242,10 @@
     border: none;
     border-radius: 0px;
     cursor: pointer;
-    width: 10%;
+    /* width: 10%;  REMOVED */
     font-family: 'Avenir', sans-serif;
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: inline-block; /* Ensures the button respects padding and margins */
 }
 
 .btn-custom:hover {
@@ -253,4 +255,3 @@
     transform: translateY(-2px);
     font-family: 'Avenir', sans-serif;
 }
-
